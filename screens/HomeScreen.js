@@ -16,6 +16,8 @@ import {
   SearchIcon,
   AdjustmentsIcon,
 } from "react-native-heroicons/outline";
+import FeaturedRow from "../components/FeaturedRow";
+
 export default function HomeScreen() {
   const navigation = useNavigation();
 
@@ -24,6 +26,7 @@ export default function HomeScreen() {
       headerShown: false,
     });
   }, []);
+
   return (
     <SafeAreaView className="bg-white pt-5">
       <View className={"flex-row pb-3 items-center mx-4 space-x-2"}>
@@ -54,6 +57,21 @@ export default function HomeScreen() {
       </View>
       <ScrollView className="bg-gray-100">
         <Categories />
+        <FeaturedRow
+          id="123"
+          title="Featured"
+          description={"paid placements from our partners"}
+        />
+        <FeaturedRow
+          id="1234"
+          title="Featured"
+          description={"paid placements from our partners"}
+        />
+        <FeaturedRow
+          id="12345"
+          title="Featured"
+          description={"paid placements from our partners"}
+        />
       </ScrollView>
     </SafeAreaView>
   );

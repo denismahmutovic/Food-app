@@ -12,10 +12,13 @@ export default function Categories() {
       showsHorizontalScrollIndicator={false}
       horizontal
     >
-      <Text>Helloo</Text>
-      <CategoriesCard imgUrl="https://links.papareact.com/wru" title="test" />
-      <CategoriesCard imgUrl="https://links.papareact.com/wru" title="test" />
-      <CategoriesCard imgUrl="https://links.papareact.com/wru" title="test" />
+      <Text></Text>
+      <CategoriesCard imgUrl="https://links.papareact.com/gn7" title="test" />
+      <CategoriesCard imgUrl="https://links.papareact.com/gn7" title="test" />
+      <CategoriesCard imgUrl="https://links.papareact.com/gn7" title="test" />
+      <CategoriesCard imgUrl="https://links.papareact.com/gn7" title="test" />
+      <CategoriesCard imgUrl="https://links.papareact.com/gn7" title="test" />
+      <CategoriesCard imgUrl="https://links.papareact.com/gn7" title="test" />
     </ScrollView>
   );
 }
