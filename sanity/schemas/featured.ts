@@ -1,6 +1,6 @@
 import {defineField, defineType} from 'sanity'
 export default defineType( {
-  name: 'feature',
+  name: 'featured',
   type: 'document',
   title: 'Feature Menu categories',
   fields: [

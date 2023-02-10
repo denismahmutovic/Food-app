@@ -10,6 +10,8 @@ import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { useLayoutEffect } from "react";
 import Categories from "../components/Categories";
+import { useState, useEffect } from "react";
+
 import {
   UserIcon,
   ChevronDownIcon,
