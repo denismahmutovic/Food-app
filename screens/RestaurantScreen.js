@@ -16,6 +16,9 @@ import {
   StarIcon,
 } from "react-native-heroicons/solid";
 
+import { QuestionMarkCircleIcon } from "react-native-heroicons/outline";
+import DishRow from "../components/DishRow";
+
 export default function RestaurantScreen() {
   const navigation = useNavigation();
 
@@ -73,7 +76,24 @@ export default function RestaurantScreen() {
             </View>
             <Text className="text-gray-500 mt-2 pb-4">{short_description}</Text>
           </View>
+          <TouchableOpacity className="flex-row items-center space-x-2 p-4 border-y border-gray-300">
+            <QuestionMarkCircleIcon color={"gray"} opacity={0.6} size={20} />
+            <Text className="pl-2 flex-1 text-md font-bold">
+              Have a fodd allergy?
+            </Text>
+            <ChevronRightIcon color={"#00CCBB"} />
+          </TouchableOpacity>
         </View>
+      </View>
+      <View>
+        <Text className="px-4 pt-4 mb-3 font-bold text-xl">Menu</Text>
+        <DishRow
+          name="Rostilj"
+          description="uskoro"
+          imgUrl={{
+            uri: imgUrl,
+          }}
+        />
       </View>
     </ScrollView>
   );
