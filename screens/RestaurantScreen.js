@@ -89,7 +89,14 @@ export default function RestaurantScreen() {
         <Text className="px-4 pt-4 mb-3 font-bold text-xl">Menu</Text>
         <DishRow
           name="Rostilj"
-          description="uskoro"
+          description="uskorodhjasdjasjsadashidhasihdiashddsdsddsasdaasdas"
+          imgUrl={{
+            uri: imgUrl,
+          }}
+        />
+        <DishRow
+          name="Rostilj"
+          description="uskorodhjasdjasjsadashidhasihdiashddsdsddsasdaasdas"
           imgUrl={{
             uri: imgUrl,
           }}
