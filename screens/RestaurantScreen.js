@@ -21,6 +21,7 @@ import DishRow from "../components/DishRow";
 import Basketlcon from "../components/Basketlcon";
 import { useDispatch } from "react-redux";
 import { setRestaurant } from "../features/restaurantSlice";
+import { useEffect } from "react";
 
 export default function RestaurantScreen() {
   const navigation = useNavigation();

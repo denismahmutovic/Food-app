@@ -8,7 +8,7 @@ export default function Basketlcon() {
   const items = useSelector(selectBasketItems);
   const navigation = useNavigation();
   const basketTotal = useSelector(selectBasketTotal);
-  if (items.length === 0) return 0;
+  if (items.length === 0) return <Text>0</Text>;
 
   return (
     <View className="absolute bottom-10 w-full z-50">
