@@ -8,4 +8,4 @@ export default configureStore({
     basket: basketReducer,
     restaurant: restaurantReducer,
   },
-});
+})
